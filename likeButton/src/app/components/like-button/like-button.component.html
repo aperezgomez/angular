@@ -1,0 +1,6 @@
+<h1>Like Button Demo</h1>
+<br><br>
+<button [style.backgroundColor]="isLiked?'green':'red'" (click)="processLikeButtonClick()">{{totalLikes}} | Likes</button>
+<div [hidden]="!isLiked" class="likedThumbsupImageContainer">
+    <img src="assets/thumbs-up.png"/>
+</div>
