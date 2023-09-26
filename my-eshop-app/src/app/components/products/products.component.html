@@ -1,0 +1,19 @@
+<app-header></app-header>
+<h1>Our shop has the following products</h1>
+
+<table>
+    <tr>
+        <th>Product</th>
+        <th>Price(CAD)</th>
+        <th>Action</th>
+    </tr>
+    <tr *ngFor="let product of products">
+        <td>{{product.name}}</td>
+        <td>{{product.price}}</td>
+        <td><button (click)="addToCart(product)">Add to Cart</button></td>
+    </tr>
+</table>
+
+<hr/>
+<h2><a routerLink="/cart">Cart</a></h2>
+<app-footer></app-footer>
