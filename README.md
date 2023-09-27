@@ -8,10 +8,6 @@ This repository showcases a series of Angular projects demonstrating different f
 - [Like Button](#like-button)
 - [Auto Completion](#auto-completion)
 - [E-commerce Front Page](#e-commerce-front-page)
-- [News Articles Interaction](#news-articles-interaction)
-- [Login Page](#login-page)
-- [Rating System](#rating-system)
-- [Side Menu](#side-menu)
 - [Installation](#installation)
 - [Usage](#usage)
 
@@ -27,18 +23,6 @@ A module that provides real-time suggestions while a user types in an input fiel
 
 ## E-commerce Front Page
 An attractive front page for an electronics store, enabling users to browse products, view details, and add items to a cart.
-
-## News Articles Interaction
-Allows users to interact with news articles through like and dislike functionalities, providing an interactive way for feedback.
-
-## Login Page
-A secure login interface for websites, implementing best practices for user authentication and user experience.
-
-## Rating System
-A flexible rating system module where users can rate items or services, providing essential feedback and reviews.
-
-## Side Menu
-An interactive side menu module, efficient for navigating different sections or features of a web application.
 
 ## Installation
 
